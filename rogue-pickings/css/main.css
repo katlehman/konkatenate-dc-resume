@@ -1,0 +1,164 @@
+/***** BASE STYLES *****/
+
+body {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/***** GRID *****/
+
+.full-width {
+  margin: 0 auto;
+  overflow: auto;
+  width: 1200px;
+}
+
+.half-width {
+  float: left;
+  width: 600px;
+}
+
+.third-width {
+  float: left;
+  width: 400px;
+}
+
+/***** HEADER *****/
+
+header {
+  height: 400px;
+}
+
+/* fallback for browsers that don't support multiple background image values */
+.no-multiplebgs header {
+  background-image: url("../img/hero.png");
+}
+
+header h1 {
+  color:#000000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 50px 0 10px 0;
+  text-transform: uppercase;
+}
+
+nav {
+  float:right;
+  padding: 60px 0px 10px 0;
+}
+
+nav ul li {
+  display:inline-block;
+  color: #77a466;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header img {
+  border-top: 4px solid;
+  border-bottom: 4px solid;
+  border-color: #77a466;
+}
+
+
+/***** WELCOME *****/
+
+#welcome .full-width {
+  padding: 50px 0 20px 0;
+}
+
+#welcome h2 {
+  color:#77a466;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#welcome p {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/***** CONNECT *****/
+
+#connect {
+  clear: both;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#connect .full-width {
+  padding: 20px 0;
+}
+
+#connect .third-width {
+  margin: 0;
+  width: 400px;
+  height: 200px;
+}
+
+#connect h3 {
+  color: #000000;
+  font-size: 12px;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+#connect ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#connect ul li {
+  color: #77a466;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+#connect #today {
+  margin: 0;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-right: 1px solid;
+  border-color: #eeeeee;
+  height: 200px;
+}
+
+#connect #reviews{
+  margin: 0;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: #eeeeee;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 200px;
+}
+
+#connect #contact {
+  margin: 0;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  padding-left: 20px;
+  border-left: 1px solid;
+  border-color: #eeeeee;
+  height: 200px;
+}
+
+/***** FRESH *****/
+
+#fresh .full-width {
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px 0;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+}
